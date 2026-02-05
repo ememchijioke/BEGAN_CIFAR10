@@ -40,11 +40,11 @@ python sample.py \
 ```
 
 ### Results
-Training dynamics and an uncurated sample grid from the final generator:
+Training dynamics and an uncurated sample grid from the final generator (see `assets/` for the static copies):
 
-![Training curves](outputs/began_training_curves.png)
+![Training curves](assets/training_curves.png)
 
-![Generated CIFAR-10 samples](outputs/demo_final.png)
+![Generated CIFAR-10 samples](assets/demo_final.png)
 
 ### Notes
 - Model definitions live in `models.py`; training loop and BEGAN \(k_t\) update are in `train.py`.
